@@ -1,0 +1,12 @@
+create table UserDetails
+(
+uname varchar2(20),
+email varchar2(40),
+num number(10),
+gender varchar2(10),
+city varchar2(15),
+pass varchar2(20),
+balance number(10)
+)
+
+select * from UserDetails
