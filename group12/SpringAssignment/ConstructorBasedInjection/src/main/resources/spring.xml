@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+	
+	<bean id="addr" class="com.mypack.Address">
+		<constructor-arg value="Pune"></constructor-arg>
+		<constructor-arg value="401233" type="int"></constructor-arg>
+	</bean>
+	
+	<bean id="emp" class="com.mypack.Employee">
+		<constructor-arg value="101" type="int"></constructor-arg>
+		<constructor-arg value="Dhruv"></constructor-arg>
+		<constructor-arg>
+			<ref bean="addr"></ref>
+		</constructor-arg>
+	</bean>
+
+</beans>
