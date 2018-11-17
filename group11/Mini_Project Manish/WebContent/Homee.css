@@ -1,0 +1,60 @@
+@charset "ISO-8859-1";
+body
+{
+	margin:0px;
+	padding:0px;
+	background:url(rback.png);
+	background-size:cover;
+}
+
+
+.container
+{
+	
+width:200px;
+height:200px;
+background:#404040;
+padding:100px;
+position:absolute;
+top:20%;
+color:#fff;	
+border-radius:10px;
+	
+}
+
+.image1
+{
+  position:absolute;
+  left:10%;
+  top:10%;
+  margin-bottom:20px;
+}
+
+.image2
+{
+	position:absolute;
+	left:10%;
+	top:50%;
+}
+
+.a1
+{
+	position:absolute;
+	display:block-inline;
+	top:35%;
+	left:10%;
+	text-decoration:none;
+	font-weight:bold;
+	font-size:30;
+}
+
+.a2
+{
+	position:absolute;
+	display:block-inline;
+	top:75%;
+	left:9%;
+	text-decoration:none;
+	font-weight:bold;
+	font-size:30;
+}
