@@ -1,0 +1,33 @@
+			  button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+/* Model Content/Box */
+.model-content {
+    background-color: #fefefe;
+    margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+}
+ /*.carousel-caption h3 {
+font-family:    Garamond;
+font-size:      3em;
+color:          red !important;
+}
+/* Description text 
+.carousel-caption p {
+font-family:    Garamond;
+font-size:      2em;
+color:          blue !important;
+}
+/* Button text 
+.carousel-caption .btn {
+font-family:    Garamond;
+font-size:      1em;
+color:          yellow;
+}*/

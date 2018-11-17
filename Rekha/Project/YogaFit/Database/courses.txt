@@ -1,0 +1,3 @@
+"COURSE_NAME","DURATION","HRS_PER_WEEK","HRS_PER_DAY","USER_NAME"
+"Repeater Course","2","2","3","rekha_1"
+"Basic Preminary Yoga Course","3","3","3","rekha_1"
