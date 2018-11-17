@@ -1,0 +1,59 @@
+{\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1033{\fonttbl{\f0\fnil\fcharset0 Times New Roman;}}
+{\*\generator Riched20 10.0.16299}\viewkind4\uc1 
+\pard\f0\fs24 The project is about a Book STore which has different models ranging from registration to displaying all the data.\par
+\par
+          Agile Methodology:\par
+Agile Methodology has some basic terminologies:\par
+These include:\par
+1)Tasks\par
+2)User Stories\par
+3)Epics\par
+4)Sprints\par
+5)Product backlog\par
+\par
+ Tasks,\par
+These are the basic functionalities needed in a model which the developers have to design in order to support user requirements like Name,Id or anything else.\par
+These are the smallest units in the web working models.\par
+\par
+Example of Book Store,\par
+REGISTRATION FORM\par
+User name, email, mobile number, city, gender, password and balance form some of the various tasks in the agile methodology. These are defined on the basis of user stories.\par
+Specific styles are added according to user stories in order to make a human friendly UI.\par
+\par
+User Stories,\par
+These are the various specifications that the user wants. These are taken into consideration while creating the model. These form a vital part in the development process.\par
+The tasks are defined on the basis of various user stories.\par
+\par
+Example of Book Store model,\par
+How the Registration page looks.\par
+What are the various functionalities in the module.\par
+How to style the page.\par
+\par
+Epics in Book Store model,\par
+EPIC 1:REGISTRATION DETAILS\par
+EPIC 2:LOGIN\par
+EPIC 3:DISPLAY ALL\par
+EPIC 4:WELCOME\par
+EPIC 5:MYPROFILE\par
+EPIC 6:LOGOUT\par
+EPIC 7:BUY BOOK\par
+\par
+Sprints,\par
+Sprint 1:\par
+EPIC 1,EPIC 2:Registration+Login:Sprint 1 includes Registration and Login pages.\par
+\par
+Sprint 2:\par
+EPIC 3,EPIC 4,EPIC 5,EPIC 6:Display All, Welcome, My Profile, Logout:Sprint 2 includes Display All, Welcome, My Profile, Logout modules.\par
+\par
+Sprint 3:\par
+EPIC 7 : Buy Book : Sprint 7 includes BuyBook module.\par
+\par
+Product backlog,\par
+Registration\par
+Login\par
+Display All\par
+Welcome\par
+My Profile\par
+Logout\par
+BuyBook\par
+}
