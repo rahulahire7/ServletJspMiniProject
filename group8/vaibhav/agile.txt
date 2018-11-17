@@ -1,0 +1,49 @@
+The project is about a bank registration model which has different models ranging from registration to displaying all the data.
+
+          Agile Methodology:
+Agile Methodology has some basic terminologies:
+These include:
+1)Tasks
+2)User Stories
+3)Epics
+4)Sprints
+5)Product backlog
+
+ Tasks,
+These are the basic functionalities needed in a model which the developers have to design in order to support user requirements like Name,Id or anything else.
+These are the smallest units in the web working models.
+
+Example of banking model,
+REGISTRATION FORM
+registration id,Password,Account type,Account Number form some of the various tasks in the agile methodology.These are defined on the basis of user stories.
+Specific styles,styles are added to give a good look to the website.
+
+User Stories,
+These are the various specifications that the user wants.These are taken into consideration while creating the model.These form a vital part in the development process.
+The tasks are defined on the basis of various user stories.
+
+Example of banking model,
+How the Registration page looks.
+What are the various functionalities in the module.
+How to style the page.
+
+Epics in banking model,
+EPIC 1:REGISTRATION DETAILS
+EPIC 2:LOGIN
+EPIC 3:SUCCESS MODULE
+EPIC 4:SEARCH MODULE
+EPIC 5:DISPLAY
+
+Sprints,
+Sprint 1:
+EPIC 1,EPIC 2:Registration+Login:Sprint 1 includes Registration and Login pages.
+
+Sprint 2:
+EPIC 3,EPIC 4,EPIC 5:Success+Search+Display:Sprint 2 includes success,search and display modules.
+
+Product backlog,
+Registration
+Login
+Success
+Search
+Display
