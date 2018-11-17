@@ -1,0 +1,24 @@
+create table Book
+( bookId varchar2(10) constraint p_k primary key,
+bookName varchar2(50),
+author varchar2(30),
+category varchar2(20)
+);
+
+insert into book values("m101","The Accidental Apprentice","Vikas Swarup","Mystery");
+insert into book values("m102","60 Minutes","Upendra Namburi","Mystery");
+
+insert into book values("h101","Ghost Stories in Shimla Hills","Minakshi Chaudhary","Horror");
+insert into book values("h102","A face in the dark","Ruskin Bond","Horror");
+
+
+insert into book values("r101","Till the last breadth","Durjoy Dutta","Romance");
+insert into book values("r102","Love Story","Ravinder Singh","Romance");
+
+insert into book values("a101","APJ Abdul Kalam","Dr Abdul Kalam","Autobiography");
+insert into book values("a102","Romancing with Life","Devanand","Autobiography");
+--------------------------------------------------------------------------------------------------------------
+create table signup(fname varchar2(20),lname varchar2(20),gender varchar2(10),nation varchar2(20),bday date,email varchar2(30),uname varchar2(30) primary key,psw varchar2(15));
+------------------------------------------------------------------------------------------------------------------------------
+create table bookreview(bookId varchar2(10) references book(bookId),category varchar2(20), uname varchar2(30) references signup(uname),review varchar2(60));
+
