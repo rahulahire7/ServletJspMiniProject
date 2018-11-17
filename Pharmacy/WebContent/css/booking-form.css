@@ -1,0 +1,35 @@
+/*created by leamug*/
+body{
+    background: url('../img/background.jpg');
+    background-repeat: no-repeat;
+    background-position:center center ;
+    background-size: cover;
+    font-family: sans-serif;
+}
+.well-title h2{
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    background: #FF8037CC;
+    padding: 8px;
+    text-align: center;
+    border-radius: 2px;
+    letter-spacing: 1px;
+}
+.btn-primary {
+    color: #fff;
+    background-color: #FF8037CC;
+    border-color: #FF8037CC;
+}
+section{
+    padding: 8% 0px;
+}
+.well-block {
+    padding: 40px;
+    background: rgba(0,0,0,0.6);
+    color: white;
+}
+
+.well-title {
+    margin-bottom: 40px;
+}
